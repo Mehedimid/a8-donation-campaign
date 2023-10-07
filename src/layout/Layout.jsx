@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom';
 
 function Layout(props) {
     return (
-        <div className='sizing'>
+        <div className=''>
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>

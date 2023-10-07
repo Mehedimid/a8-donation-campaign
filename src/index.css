@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .sizing {
-    @apply w-11/12 mx-auto
+    @apply max-w-6xl mx-auto
 }
 a.active{ 
     @apply text-red-500 underline font-medium
