@@ -10,7 +10,7 @@ function Banner() {
    <h1 className="mb-5 text-4xl font-bold text-black">I Grow By Helping People In Need</h1>
    
    <div className="relative">
-        <input type="text" placeholder="Search here..." className="input input-bordered w-full pr-16" /> 
+        <input type="text" placeholder="Search here..." className="input input-bordered text-black w-full pr-16" /> 
         <button className="btn btn-error absolute text-white top-0 right-0 rounded-l-none">Search</button>
       </div>
  </div>
