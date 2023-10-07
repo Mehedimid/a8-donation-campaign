@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 // import {Logo} from '../assets/Logo.png';
-function Navbar(props) {
+function Navbar() {
     return (
         <div className='sizing relative'>
-            <div className="navbar pt-5 ">
+            <div className="navbar py-5 ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">

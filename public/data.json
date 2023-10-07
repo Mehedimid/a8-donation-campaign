@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.ibb.co/9nXY32C/Rectangle-4284.png",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "color": "#cc007e",
+    "description": "Provide clean and safe drinking water for children in underprivileged communities.",
+    "price": "$499"
+  },
+
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/d23h7Fm/Rectangle-4287-2.png",
+    "title": "Organic Food Delights",
+    "category": "Food",
+    "color": "#5733FF",
+    "description": "Cook up delicious dishes with high-quality and flavorful food ingredients.",
+    "price": "$199"
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/hZpdHqz/Rectangle-4288.png",
+    "title": "Educational Tools for Kids",
+    "category": "Education",
+    "color": "#33FF57",
+    "description": "Expand your knowledge and horizons with educational books for all ages.",
+    "price": "$499"
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/XCXvVsC/Rectangle-4287.png",
+    "title": "Fashionable Clothing Styles",
+    "category": "Clothing",
+    "color": "#FF5733",
+    "description": "Stay stylish with a variety of fashionable clothing styles for every occasion.",
+    "price": "$299"
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/d23h7Fm/Rectangle-4287-2.png",
+    "title": "Gourmet Food Selections",
+    "category": "Food",
+    "color": "#5733FF",
+    "description": "Cook up delicious dishes with high-quality and flavorful food ingredients.",
+
+    "price": "$799"
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/9nXY32C/Rectangle-4284.png",
+    "title": "Healthy Hydration Solutions",
+    "category": "Health",
+    "color": "#cc007e",
+    "description": "Provide clean and safe drinking water for children in underprivileged communities.",
+    "price": "$49"
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/XCXvVsC/Rectangle-4287.png",
+    "title": "Fashionable Clothing Styles",
+    "category": "Clothing",
+    "color": "#FF5733",
+    "description": "Stay stylish with a variety of fashionable clothing styles for every occasion.",
+    "price": "$59"
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/hZpdHqz/Rectangle-4288.png",
+    "title": "Educational Learning Kits",
+    "category": "Education",
+    "color": "#33FF57",
+    "description": "Expand your knowledge and horizons with educational books for all ages.",
+    "price": "$149"
+  },
+
+
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/9nXY32C/Rectangle-4284.png",
+    "title": "Health Supplements",
+    "category": "Health",
+    "color": "#cc007e",
+    "description": "Provide clean and safe drinking water for children in underprivileged communities.",
+    "price": "$249"
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/hZpdHqz/Rectangle-4288.pngg",
+    "title": "Educational Books",
+    "category": "Education",
+    "color": "#33FF57",
+    "price": "$300",
+    "description": "Expand your knowledge and horizons with educational books for all ages."
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/d23h7Fm/Rectangle-4287-2.pngg",
+    "title": "Delicious Food Ingredients",
+    "category": "Food",
+    "color": "#5733FF",
+    "description": "Cook up delicious dishes with high-quality and flavorful food ingredients.",
+    "price": "$79"
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/XCXvVsC/Rectangle-4287.pngg",
+    "title": "Fashionable Clothing Styles",
+    "category": "Clothing",
+    "color": "#FF5733",
+    "description": "Stay stylish with a variety of fashionable clothing styles for every occasion.",
+    "price": "$299"
+  }
+]
