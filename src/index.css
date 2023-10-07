@@ -5,3 +5,6 @@
 .sizing {
     @apply w-11/12 mx-auto
 }
+a.active{ 
+    @apply text-red-500 underline font-medium
+}
