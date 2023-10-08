@@ -20,7 +20,7 @@ function Navbar() {
   </div>
   <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal gap-7 text-base px-1">
-    <NavLink to='/'>Home</NavLink>
+    <NavLink to=''>Home</NavLink>
     <NavLink to='/donation'>Donation</NavLink>
     <NavLink to='/stat'>Statistics</NavLink>
     </ul>

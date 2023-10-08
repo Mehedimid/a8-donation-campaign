@@ -1,17 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
 
+function SingleDonation({card}) {
+    const { id, picture, title, category, color, description, price } = card;
 
-function SingleCard({ card }) {
-  const { id, picture, title, category, color, description, price } = card;
- 
-  return (
-     <>
-       <Link to={`/details/${id}`}>
-       <div style={{backgroundColor: color+'15'}} className="card shadow-xl">
-        <figure>
-          <img src={picture} className="w-full h-[180px] object-cover" />
-        </figure>
+    return (
+
+       <div style={{backgroundColor: color+'15'}} className=" shadow-xl md:flex">
+        <div>
+          <img src={picture} className="w-96 h-[180px] object-cover" />
+        </div>
         <div className="card-body">
           <h3 style={{backgroundColor: color+'40' , color:color}} className=" font-medium  text-sm w-fit px-2 py-1 rounded">{category}</h3>
           <h2 style={{color:color}} className="text-base font-semibold">{title}</h2>
@@ -19,8 +16,8 @@ function SingleCard({ card }) {
           <div style={{backgroundColor:color+98}} className="badge text-white p-3 text-base">{price}</div>
         </div>
       </div>
-       </Link>
-     </>
-  );
+
+    );
 }
-export default SingleCard;
+
+export default SingleDonation;

@@ -8,6 +8,10 @@ import './index.css'
 import Layout from './layout/Layout';
 import Home from './pages/Home';
 import ErrorPage from './components/ErrorPage';
+import Details from './components/Details';
+import Donation from './pages/Donation';
+import Stat from './pages/Stat';
+
 
 const router = createBrowserRouter([
   {
@@ -16,13 +20,22 @@ const router = createBrowserRouter([
     errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
-        path:'/',
+        path:'',
         element:<Home></Home>,
-        loader: () => fetch('data.json'),
+        loader: () => fetch('./data.json'),
+      },
+      {
+        path:'/details/:id',
+        element:<Details></Details>,
+        loader: () => fetch('./data.json'),
       },
       {
         path:'/stat',
-        element: <h1>This is stat</h1>
+        element:<Stat></Stat>
+      },
+      {
+        path:'/donation',
+        element:<Donation></Donation>
       }
     ]
   },
