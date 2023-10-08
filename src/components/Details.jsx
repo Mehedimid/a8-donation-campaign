@@ -23,7 +23,7 @@ const Details = () => {
   if (matchedCard) {
     return (
       <div>
-        (
+        
 
  <div className="sizing my-10">
           <div className="relative">

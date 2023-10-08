@@ -14,7 +14,7 @@ function Donation() {
         <div>
                     <section id='card-container' className='mb-24'>
          <div className='sizing'>
-         <div className=' grid grid-cols-1 lg:grid-cols-2  gap-10'>
+         <div className='md:mx-32 lg:mx-0 grid grid-cols-1 lg:grid-cols-2  gap-10'>
                 {
                     cards.slice(0, limit).map((card) => (<SingleDonation key={card.id} card={card}></SingleDonation>))
                 }
