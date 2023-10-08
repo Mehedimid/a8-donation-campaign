@@ -3,7 +3,7 @@ import React from 'react';
 function Stat(props) {
     return (
         <div>
-            heloooooooooooo
+            heloooooooooooooooo
         </div>
     );
 }
