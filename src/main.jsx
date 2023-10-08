@@ -32,11 +32,12 @@ const router = createBrowserRouter([
       },
       {
         path:'/stat',
-        element:<Stat></Stat>
+        element:<Stat></Stat>,
+        loader:() => fetch('./data.json')
       },
       {
         path:'/donation',
-        element:<Donation></Donation>
+        element:<Donation></Donation>,
       }
     ]
   },
