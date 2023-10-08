@@ -42,9 +42,10 @@ function Stat(props) {
   };
 
   return (
-    <section
+    <>
+     <section
       id="stat"
-      className=" content-box grid grid-cols-1 lg:grid-cols-2 items-center "
+      className=" mt-16 "
     >
      
       <div style={{ width: "100%", height: "400px" }}>
@@ -71,6 +72,8 @@ function Stat(props) {
         </ResponsiveContainer>
       </div>
     </section>
+    </>
+    
   );
 }
 
