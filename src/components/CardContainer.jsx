@@ -8,7 +8,7 @@ const  CardContainer = ({cards}) => {
          <div className='sizing'>
          <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2'>
                 {
-                    cards.map((card) => (<SingleCard key={card.id} card={card}></SingleCard>))
+                    cards && cards?.length && cards?.map((card) => (<SingleCard key={card.id} card={card}></SingleCard>))
                 }
             </div>
          </div>
