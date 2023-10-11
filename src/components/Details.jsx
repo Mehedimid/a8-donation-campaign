@@ -1,5 +1,5 @@
 import React from "react";
-import {  useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -12,20 +12,18 @@ const Details = () => {
     const mySavedArray = JSON.parse(localStorage.getItem("donation")) || [];
     const findData = mySavedArray.find((item) => item.id == matchedCard.id);
     if (!findData) {
-      toast('Seccuessfully added')
+      toast("Seccuessfully added");
       mySavedArray.push(matchedCard);
       localStorage.setItem("donation", JSON.stringify(mySavedArray));
-    }else{
-      toast('Alrady added')
+    } else {
+      toast("Alrady added");
     }
   };
 
   if (matchedCard) {
     return (
       <div>
-        
-
- <div className="sizing my-10">
+        <div className="sizing my-10">
           <div className="relative">
             <img
               src={matchedCard.picture}
@@ -49,9 +47,8 @@ const Details = () => {
             </h1>
             <p>{matchedCard.description}</p>
           </div>
-          <ToastContainer position="top-left"></ToastContainer>
-        </div>       
-        )
+          <ToastContainer></ToastContainer>
+        </div>
       </div>
     );
   }

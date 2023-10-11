@@ -48,9 +48,9 @@ function Stat(props) {
       className=" mt-16 "
     >
      
-      <div style={{ width: "100%", height: "400px" }}>
+      <div style={{ width: "100%", height: "400px" }} >
         <ResponsiveContainer>
-          <PieChart width={400} height={400}>
+          <PieChart width={300} height={300}>
             <Pie
               data={data}
               cx="50%"

@@ -1,8 +1,8 @@
 
-
 import SingleCard from './SingleCard';
 
 const  CardContainer = ({cards}) => { 
+
     return (
         <section id='card-container' className='mb-24'>
          <div className='sizing'>
